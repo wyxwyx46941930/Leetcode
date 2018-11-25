@@ -42,7 +42,7 @@ P     I
 
 刚开始拿到这个题是一头雾水，完全不知道如何下手，看测试样例也是十分的懵逼，后来搜索题解发现这是一道找规律的题，<u>大概意思就是把你输入的字符串按照`写倒立的大写N的顺序`再排列一遍，随后按行输出。</u>
 
-这个题有很多种方法，我个人的思路是这样的，以 N = 4 为例，图中的数字代表字母的下标：![tmp](C:\Users\WYX\Desktop\tmp.png)
+这个题有很多种方法，我个人的思路是这样的，以 N = 4 为例，图中的数字代表字母的下标：![tmp](https://github.com/wyxwyx46941930/Leetcode/blob/master/leetcode%206/tmp.png)
 
 - step 1 ：分块
 
@@ -64,8 +64,6 @@ P     I
     > x = rowNumber - 1 - index % (rowNumber - 1)
     >
     > y = index % (rowNumber - 1) + i * (Number - 1) 
-
-    
 
 - step 4 ：动态申请二维数组完成赋值
 
