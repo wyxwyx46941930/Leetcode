@@ -34,15 +34,15 @@ Among them, only integer 3 disobeys the rule (two consecutive ones) and the othe
 
 如图：
 
-![TIM截图20181125155829](.\TIM截图20181125155829.png)
+![TIM截图20181125155829](https://github.com/wyxwyx46941930/Leetcode/blob/master/leetcode%20600/TIM%E6%88%AA%E5%9B%BE20181125155829.png)
 
-----
+------
 
 #### 另寻他路
 
 在网上查看大佬们的解题思路，有一种比较巧妙的方法介绍一下：
 
-![TIM截图20181125161356](.\TIM截图20181125161356.png)
+![TIM截图20181125161356](https://github.com/wyxwyx46941930/Leetcode/blob/master/leetcode%20600/TIM%E6%88%AA%E5%9B%BE20181125161356.png)
 
 最后我们所要求的结果是：
 
