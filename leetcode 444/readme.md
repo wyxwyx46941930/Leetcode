@@ -78,7 +78,7 @@ The seqs parameter had been changed to a list of list of strings (instead of a
 
 这两个例子中所给定的 `org`是完全一样的`[1，2，3]`，但是`seqs`序列中`example 1`中给定的是`[1,2],[2,3]`而`example 3`中给定的是`[1,2],[1,3],[2,3]`，这里我们可以假设给定的 `seqs` 序列是可以边叠加在同一个有向图中的依赖序列，那么可推出：
 
-![TIM截图20181207163727](.\TIM截图20181207163727.png)
+![TIM截图20181207163727](https://github.com/wyxwyx46941930/Leetcode/blob/master/leetcode%20444/TIM%E6%88%AA%E5%9B%BE20181207163727.png)
 
 接着我们对这两个图示进行**拓扑排序，我们每次都从出度最多的节点出发，在出发前检查是否这个点是否是只有出度，如果存在入度，那么去找它的入度节点中出度数目最大的**，那么`example 1`可推出序列：[1,2,3]或者[1,3,2]；`example 3`可以推出序列：[1,2,3]；所以从这里我们就可以从`example 3 `中唯一确定原序列，而`example 1`并不可以。
 
