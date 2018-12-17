@@ -43,7 +43,7 @@ Because the 4th row is incomplete, we return 3.
 
 这个题可以用循环做，但是也可以直接使用求通向公式的方法做，解法如图：
 
-![test](C:\Users\WYX\Desktop\leetcode 441\test.png)
+![test](https://github.com/wyxwyx46941930/Leetcode/blob/master/leetcode%20441/test.png)
 
 大致也就是配完全平方式，求解 K
 
